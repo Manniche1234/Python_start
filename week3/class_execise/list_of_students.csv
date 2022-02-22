@@ -1,1 +1,9 @@
-Student name: Peter. Gender: Another. Course name: asd. Teacher: Daniel. ETCS: 10. Classroom: L1.321. Grade: 7. ,Student name: August. Gender: Another. Course name: August. Teacher: Thomas. ETCS: 10. Classroom: L1.05. Grade: 12. ,Student name: August. Gender: Another. Course name: asd. Teacher: Daniel. ETCS: 10. Classroom: L1.321. Grade: 7. ,Student name: Jens. Gender: Another. Course name: asd. Teacher: Daniel. ETCS: 10. Classroom: L1.321. Grade: 7. ,Student name: Bo. Gender: Another. Course name: dqwe. Teacher: Kim. ETCS: 10. Classroom: L1.23. Grade: 10. 
+Name,Gender,Course name,Course teacher,ETCS,Classroom,Grade
+Jens,Male,dqwe,Kim,10,L1.23,10
+Jens,Male,August,Thomas,10,L1.05,12
+Jens,Male,asd,Daniel,10,L1.321,7
+Peter,Another,August,Thomas,10,L1.05,12
+Peter,Female,dqwe,Kim,10,L1.23,10
+Peter,Male,dqwe,Kim,10,L1.23,10
+Jens,Male,asd,Daniel,10,L1.321,7
+Jens,Male,dqwe,Kim,10,L1.23,10
