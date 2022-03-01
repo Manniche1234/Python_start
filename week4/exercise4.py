@@ -46,10 +46,6 @@ mask_other_denmark = (dd[:,0] == 2015) & (dd[:,2] > 65) & (dd[:,3] != 5100)
 
 mask_oester_vester = (dd[:,0] >= 1992) & (dd[:,0] <= 2015) & (dd[:,1] == 2) | (dd[:,1] == 4)
 
-#print(dd[mask_oester_vester])
-#print(list(range(1992,2016)))
-
-#print(np.sum(dd[mask_oester_vester][:,4]))
 vesterbro_sums = {}
 østerbro_sums = {} 
 
