@@ -32,13 +32,24 @@ for rating in pr_rated:
 #plt.show()
 
 #3. Get the percentage of PG rated movies between 2001 and 2015
-
 all_PG_movies = dst.loc[dst['License'] == 'PG']
 
-new = all_PG_movies["Release Date"].str.split(",", n=1)
+#Makes DataFrame to a list
+list_of_PG_movies = all_PG_movies.values.tolist()
 
+PG_movies_in_2001_2015 = 0
+for year in range(2001,2016):
+    year = str(year)
+    movies_pr_year = 0
+    for movies in list_of_PG_movies:
+        if year in movies[4]:
+            PG_movies_in_2001_2015 += 1
+            movies_pr_year += 1
+        procent_of_movies_pr_year = (movies_pr_year/len(all_PG_movies)) * 100
+    print(procent_of_movies_pr_year)
 
-print(new.__contains__('2017'))
+procent_of_movies = (PG_movies_in_2001_2015/len(all_PG_movies)) * 100
+print(procent_of_movies)
 
 #4. Calculate the average of world sales for each genre and visualize the data with a bar chart. (Hint: use groupBy)
 
