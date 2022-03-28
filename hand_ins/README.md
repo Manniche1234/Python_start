@@ -1,6 +1,6 @@
 1. Hvad for en opgave du har løst
-"Download datasettet fra dette link.
-https://www.kaggle.com/sanjeetsinghnaik/top-1000-highest-grossing-movies 
+ - "Download datasettet fra dette link.
+ - https://www.kaggle.com/sanjeetsinghnaik/top-1000-highest-grossing-movies 
 
  - 1. Find the top 10 highest grossing Disney movies measured by world sales 
 
