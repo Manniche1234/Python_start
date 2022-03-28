@@ -13,8 +13,8 @@ https://www.kaggle.com/sanjeetsinghnaik/top-1000-highest-grossing-movies
 
 
 2. Hvor langt du kom med den
-Done med den.
+ - Done med den.
 
 3. Hvordan dit program skal eksekvereres, så man kan se det virke
 
-Cd ned i folderen /my_files/hand_in og kør: python hand_in_1.py
+ - Cd ned i folderen /my_files/hand_in og kør: python hand_in_1.py
