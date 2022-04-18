@@ -64,7 +64,7 @@ for movie in all_movies_list:
         clean_genre = re.sub(r"[\[\]\']", "",genre)
         clean_genre = clean_genre.strip()
 
-        if len(each_genre) > 0 and clean_genre in list(list(zip(*each_genre))[0]):
+        if each_genre and clean_genre in list(list(zip(*each_genre))[0]):
             index = list(list(zip(*each_genre))[0]).index(clean_genre)
             each_genre[index][1].append(movie[7])
         else:
@@ -75,14 +75,9 @@ for total_sum in each_genre:
 
     Sum = sum(total_sum[1])
     avg.append(Sum/len(total_sum[1]))
+    
 
-plt.figure(figsize=(30,15))
-plt.xticks(rotation='vertical')
-plt.bar(list(list(zip(*each_genre))[0]), avg)
-plt.show()
-
-
-
-        
-          
-
+# plt.figure(figsize=(30,15))
+# plt.xticks(rotation='vertical')
+# plt.bar(list(list(zip(*each_genre))[0]), avg)
+# plt.show()
