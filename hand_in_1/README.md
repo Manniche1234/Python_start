@@ -17,4 +17,4 @@
 
 3. Hvordan dit program skal eksekvereres, så man kan se det virke
 
- - Cd ned i folderen /my_files/hand_in og kør: python hand_in_1.py
+ - Cd ned i folderen /my_files/hand_in_1 og kør: python hand_in_1.py
